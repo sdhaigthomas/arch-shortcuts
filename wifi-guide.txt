@@ -1,0 +1,9 @@
+1) iwctl device list
+#probably wlan0
+2) iwctl station (name) scan
+3) iwctl station (name) get-networks 
+4) iwctl station (name) connect (Network name)
+OR
+   iwctl station (name) connect-hidden (Network name)
+
+Test with, ping google.com
